@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ReferencePath>D:\Beat Saber\BSManager\BSInstances\Modding 1.34.2\Beat Saber_Data\Managed;D:\Beat Saber\BSManager\BSInstances\Modding 1.34.2\Libs;D:\Beat Saber\BSManager\BSInstances\Modding 1.34.2\Plugins</ReferencePath>
+    <BeatSaberDir>D:\Beat Saber\BSManager\BSInstances\Modding 1.34.2</BeatSaberDir>
+  </PropertyGroup>
+</Project>

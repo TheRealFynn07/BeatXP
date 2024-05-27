@@ -1,0 +1,55 @@
+﻿<bg xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+	xsi:schemaLocation='https://monkeymanboy.github.io/BSML-Docs/ https://raw.githubusercontent.com/monkeymanboy/BSML-Docs/gh-pages/BSMLSchema.xsd'
+	>
+
+	<horizontal anchor-pos-y='23'>
+		<vertical>
+			<clickable-image src='BeatXP.UI.Images.Logo.png' pref-width='30' pref-height='30' click-event="OpenDiscordModal"></clickable-image>
+		</vertical>
+	</horizontal>
+
+	<horizontal>
+		<vertical>
+			<horizontal pad-left='10'>
+				<primary-button text='Beat Track' hover-hint='A Beat Pass is a Level Progression System where you can unlock special things!' pad='1' pref-width='30' pref-height='10' click-event="OpenBeatTrackModal"></primary-button>
+				<primary-button text='Item Shop' hover-hint='In the Item Shop you can buy special cosmetics with Beat Coins that you can get through the Beat Pass!' pad='1' pref-width='30' pref-height='10' click-event="OpenItemShopModal"></primary-button>
+				<clickable-image src='BeatXP.UI.Images.cart.png' justify-content='Center' pref-width='10' pref-height='10' click-event="OpenCartModal"></clickable-image>
+			</horizontal>
+		</vertical>
+	</horizontal>
+
+	<modal move-to-center='true' hide-event='CloseCartModal' show-event='OpenCartModal' size-delta-x='40' size-delta-y='50'>
+		<vertical>
+			<horizontal ignore-layout='true' anchor-max-x='1' anchor-min-y='1' anchor-pos-y='-5'>
+				<text text='Cart' font-size='7' align='Center' face-color='#00ff00'></text>
+			</horizontal>
+			<horizontal>
+				<button text='Close' click-event='CloseCartModal' face-color='#ff0000' pad-top='40'></button>
+			</horizontal>
+		</vertical>
+	</modal>
+
+	<modal move-to-center='true' hide-event='CloseBeatTrackModal' show-event='OpenBeatTrackModal' size-delta-x='120' size-delta-y='75'>
+		<vertical>
+			<horizontal ignore-layout='true' anchor-max-x='1' anchor-min-y='1' anchor-pos-y='-7'>
+				<text text='Beat Track' font-size='9' align='Center' face-color='#ff6a00'></text>
+			</horizontal>
+			<horizontal>
+				<button text='Close' click-event='CloseBeatTrackModal' font-size='6' face-color='#ff0000' pad-top='55'></button>
+			</horizontal>
+		</vertical>
+	</modal>
+
+	<modal move-to-center='true' hide-event='CloseDiscordModal' show-event='OpenDiscordModal' size-delta-x='60' size-delta-y='30'>
+		<vertical>
+			<horizontal bg='panel-top-gradient' ignore-layout='true' anchor-max-x='1' anchor-min-y='1' anchor-pos-y='-8'>
+				<text text='Join our Discord!' font-size='6' align='Center'></text>
+			</horizontal>
+			<horizontal>
+				<primary-button text='Join Now!' on-click='OpenDiscordLink' underlined='true' pad-right='10' pad-top='12'></primary-button>
+				<button text='Close' click-event='CloseDiscordModal' face-color='#ff0000' pad-top='12'></button>
+			</horizontal>
+		</vertical>
+	</modal>
+
+</bg>
