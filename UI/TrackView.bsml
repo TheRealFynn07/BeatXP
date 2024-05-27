@@ -1,0 +1,43 @@
+﻿<bg xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+	xsi:schemaLocation='https://monkeymanboy.github.io/BSML-Docs/ https://raw.githubusercontent.com/monkeymanboy/BSML-Docs/gh-pages/BSMLSchema.xsd'
+	>
+	<horizontal pref-width='140' pref-height='50'>
+		<vertical>
+			<text text='Beat Pass' align='Center' font-size='7'/>
+			<horizontal pref-width='140' pref-height='30'>
+				<page-button dir='Left' preserve-aspect='true' pref-width='12.5'/>
+				<stack>
+					<vertical bg='round-rect-panel' pref-width='20' pref-height='25'>
+						<loading preserve-aspect='true' pref-width='10'/>
+						<text text='Item' font-size='6' align='Center'/>
+					</vertical>
+				</stack>
+				<stack>
+					<vertical bg='round-rect-panel' pref-width='20' pref-height='25'>
+						<loading preserve-aspect='true' pref-width='10'/>
+						<text text='Item' font-size='6' align='Center'/>
+					</vertical>
+				</stack>
+				<stack>
+					<vertical bg='round-rect-panel' pref-width='20' pref-height='25'>
+						<loading preserve-aspect='true' pref-width='10'/>
+						<text text='Item' font-size='6' align='Center'/>
+					</vertical>
+				</stack>
+				<stack>
+					<vertical bg='round-rect-panel' pref-width='20' pref-height='25'>
+						<loading preserve-aspect='true' pref-width='10'/>
+						<text text='Item' font-size='6' align='Center'/>
+					</vertical>
+				</stack>
+				<stack>
+					<vertical bg='round-rect-panel' pref-width='20' pref-height='25'>
+						<loading preserve-aspect='true' pref-width='10'/>
+						<text text='Item' font-size='6' align='Center'/>
+					</vertical>
+				</stack>
+				<page-button dir='Right' preserve-aspect='true' pref-width='12.5'/>
+			</horizontal>
+		</vertical>
+	</horizontal>
+</bg>
