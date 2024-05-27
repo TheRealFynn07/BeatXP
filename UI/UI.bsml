@@ -10,10 +10,10 @@
 
 	<horizontal>
 		<vertical>
-			<horizontal pad-left='10'>
-				<primary-button text='Beat Track' hover-hint='A Beat Pass is a Level Progression System where you can unlock special things!' pad='1' pref-width='30' pref-height='10' click-event="OpenBeatTrackModal"></primary-button>
-				<primary-button text='Item Shop' hover-hint='In the Item Shop you can buy special cosmetics with Beat Coins that you can get through the Beat Pass!' pad='1' pref-width='30' pref-height='10' click-event="OpenItemShopModal"></primary-button>
-				<clickable-image src='BeatXP.UI.Images.cart.png' justify-content='Center' pref-width='10' pref-height='10' click-event="OpenCartModal"></clickable-image>
+			<horizontal>
+				<primary-button text='Beat Track' hover-hint='The Beat Track is a Level Progression System where you can unlock special things!' pad='1' pref-width='30' pref-height='10' click-event="OpenBeatTrackModal"></primary-button>
+				<primary-button text='Item Shop' hover-hint='In the Item Shop you can buy special cosmetics with Beat Coins that you can get through the Beat Track!' pad='1' pref-width='30' pref-height='10' click-event="OpenItemShopModal"></primary-button>
+				<clickable-image src='BeatXP.UI.Images.cart.png' ignore-layout='true' anchor-max-x='0.5' anchor-min-y='1' anchor-pos-y='-3' anchor-pos-x='35' click-event="OpenCartModal"></clickable-image>
 			</horizontal>
 		</vertical>
 	</horizontal>
