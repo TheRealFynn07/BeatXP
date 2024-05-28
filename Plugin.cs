@@ -13,7 +13,7 @@ using BeatXP.Installers;
 
 namespace BeatXP
 {
-    [Plugin(RuntimeOptions.SingleStartInit)]
+    [Plugin(RuntimeOptions.SingleStartInit), NoEnableDisable]
     public class Plugin
     {
         [Init]
