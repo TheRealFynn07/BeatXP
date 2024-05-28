@@ -17,7 +17,7 @@ namespace BeatXP.UI.Flows
             if (!firstActivation)
                 return;
 
-            SetTitle("BeatXP - Track View");
+            SetTitle("Beat Track");
             showBackButton = true;
 
             ProvideInitialViewControllers(_bxpTrackView);

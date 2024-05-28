@@ -137,9 +137,11 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <EmbeddedResource Include="UI\Images\Cart.png" />
+    <EmbeddedResource Include="UI\Images\Fynn.png" />
+    <EmbeddedResource Include="UI\Images\Riley.png" />
+  </ItemGroup>
+  <ItemGroup>
     <EmbeddedResource Include="UI\Images\Logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

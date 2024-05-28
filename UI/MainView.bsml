@@ -2,7 +2,7 @@
 	xsi:schemaLocation='https://monkeymanboy.github.io/BSML-Docs/ https://raw.githubusercontent.com/monkeymanboy/BSML-Docs/gh-pages/BSMLSchema.xsd'
 	>
 
-	<horizontal anchor-pos-y='23'>
+	<horizontal anchor-pos-y='26'>
 		<vertical>
 			<clickable-image src='BeatXP.UI.Images.Logo.png' pref-width='30' pref-height='30' click-event="OpenDiscordModal"/>
 		</vertical>
@@ -12,30 +12,39 @@
 		<vertical>
 			<horizontal>
 				<primary-button text='Beat Track' hover-hint='The Beat Track is a Level Progression System where you can unlock special things!' pad='1' pref-width='30' pref-height='10' on-click='OpenTrackView'/>
-				<primary-button text='Item Shop' hover-hint='In the Item Shop you can buy special cosmetics with Beat Coins that you can get through the Beat Track!' pad='1' pref-width='30' pref-height='10' click-event="OpenItemShopModal"/>
-				<clickable-image src='BeatXP.UI.Images.Cart.png' ignore-layout='true' preserve-aspect='true' pref-width='5' anchor-max-x='0.5' anchor-min-y='1' anchor-pos-y='-3' anchor-pos-x='35' click-event="OpenCartModal"/>
+				<primary-button text='Item Shop' hover-hint='In the Item Shop you can buy special cosmetics with Beat Coins that you can get through the Beat Track!' pad='1' pref-width='30' pref-height='10'/>
 			</horizontal>
+			<primary-button text='Inventory' hover-hint='In your Inventory you can redownload cosmetics you already unlocked!' pad='1' pref-width='30' pref-height='10'/>
+		</vertical>
+	</horizontal>
+	<horizontal>
+		<vertical pad-top='30'>
+			<clickable-text text='BeatXP by Fynn07 and Riley' face-color='#2c3b63' click-event='OpenAdModal'></clickable-text>
 		</vertical>
 	</horizontal>
 
-	<modal move-to-center='true' hide-event='CloseCartModal' show-event='OpenCartModal' size-delta-x='40' size-delta-y='50'>
+	<modal move-to-center='true' hide-event='CloseAdModal' show-event='OpenAdModal' size-delta-x='70' size-delta-y='45'>
 		<vertical>
-			<horizontal ignore-layout='true' anchor-max-x='1' anchor-min-y='1' anchor-pos-y='-5'>
-				<text text='Cart' font-size='7' align='Center' face-color='#00ff00'/>
+			<horizontal pad-top='1'>
+				<horizontal>
+					<vertical pad-right='20'>
+						<text text='Fynn' font-size='6' underlined='true'/>
+					</vertical>
+				</horizontal>
+				<horizontal>
+					<vertical>
+						<text text='Riley' font-size='6' underlined='true'/>
+					</vertical>
+				</horizontal>
 			</horizontal>
-			<horizontal>
-				<button text='Close' click-event='CloseCartModal' face-color='#ff0000' pad-top='40'/>
-			</horizontal>
-		</vertical>
-	</modal>
-
-	<modal move-to-center='true' hide-event='CloseBeatTrackModal' show-event='OpenBeatTrackModal' size-delta-x='120' size-delta-y='75'>
-		<vertical>
-			<horizontal ignore-layout='true' anchor-max-x='1' anchor-min-y='1' anchor-pos-y='-7'>
-				<text text='Beat Track' font-size='9' align='Center' face-color='#ff6a00'/>
-			</horizontal>
-			<horizontal>
-				<button text='Close' click-event='CloseBeatTrackModal' font-size='6' face-color='#ff0000' pad-top='55'/>
+			<vertical>
+				<horizontal>
+					<clickable-image src='BeatXP.UI.Images.Fynn.png' ignore-layout='true' anchor-pos-x='-15' anchor-pos-y='-5' on-click='OpenFynnLink'/>
+					<clickable-image src='BeatXP.UI.Images.Riley.png' ignore-layout='true' anchor-pos-x='15' anchor-pos-y='-5' on-click='OpenRileyLink'/>
+				</horizontal>
+			</vertical>
+			<horizontal pad-top='13'>
+				<button text='Close' click-event='CloseAdModal' face-color='#ff0000'/>
 			</horizontal>
 		</vertical>
 	</modal>
