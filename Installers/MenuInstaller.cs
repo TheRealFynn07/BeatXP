@@ -13,6 +13,9 @@ namespace BeatXP.Installers
 
             Container.BindInterfacesAndSelfTo<BXPTrackFlow>().FromNewComponentOnNewGameObject().AsSingle();
             Container.BindInterfacesAndSelfTo<BXPTrackView>().FromNewComponentAsViewController().AsSingle();
+
+            Container.BindInterfacesAndSelfTo<BXPShopFlow>().FromNewComponentOnNewGameObject().AsSingle();
+            Container.BindInterfacesAndSelfTo<BXPShopView>().FromNewComponentAsViewController().AsSingle();
         }
     }
 }

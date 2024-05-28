@@ -10,7 +10,6 @@ namespace BeatXP.UI.Flows
     class BXPMainFlow : FlowCoordinator, IInitializable, IDisposable
     {
         [Inject] private readonly BXPMainView _bxpMainView;
-        [Inject] private readonly BXPTrackView _bxpTrackView;
         [Inject] private readonly MainFlowCoordinator _mainFlowCoordinator;
 
         private MenuButton _menuButton;
@@ -20,7 +19,7 @@ namespace BeatXP.UI.Flows
             if (!firstActivation)
                 return;
 
-            SetTitle("BeatXP");
+            SetTitle("Welcome to BeatXP");
             showBackButton = true;
 
             ProvideInitialViewControllers(_bxpMainView);

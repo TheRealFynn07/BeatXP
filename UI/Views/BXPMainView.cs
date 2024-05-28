@@ -12,6 +12,7 @@ namespace BeatXP.UI.Views
     {
         [Inject] private readonly BXPMainFlow _bxpFlow;
         [Inject] private readonly BXPTrackFlow _bxpTrackFlow;
+        [Inject] private readonly BXPShopFlow _bxpShopFlow;
 
         [UIAction("OpenDiscordLink")]
         private void OpenDiscordLink() => Application.OpenURL("https://discord.gg/tbJTZjjf6d");
@@ -24,5 +25,8 @@ namespace BeatXP.UI.Views
 
         [UIAction("OpenTrackView")]
         private void OpenTrackView() => _bxpFlow.PresentFlowCoordinator(_bxpTrackFlow);
+
+        [UIAction("OpenShopView")]
+        private void OpenShopView() => _bxpFlow.PresentFlowCoordinator(_bxpShopFlow);
     }
 }

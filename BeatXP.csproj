@@ -113,7 +113,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="UI\Flows\BXPMainFlow.cs" />
+    <Compile Include="UI\Flows\BXPShopFlow.cs" />
     <Compile Include="UI\Flows\BXPTrackFlow.cs" />
+    <Compile Include="UI\Views\BXPShopView.cs" />
     <Compile Include="UI\Views\BXPTrackView.cs" />
     <Compile Include="UI\Views\BXPMainView.cs" />
     <Compile Include="Installers\MenuInstaller.cs" />
@@ -129,6 +131,7 @@
     <None Include="BeatXP.csproj.user" Condition="Exists('BeatXP.csproj.user')" />
     <EmbeddedResource Include="UI\MainView.bsml" />
     <EmbeddedResource Include="UI\TrackView.bsml" />
+    <EmbeddedResource Include="UI\ShopView.bsml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="BeatSaberModdingTools.Tasks">

@@ -4,7 +4,7 @@
 
 	<horizontal anchor-pos-y='26'>
 		<vertical>
-			<clickable-image src='BeatXP.UI.Images.Logo.png' pref-width='30' pref-height='30' click-event="OpenDiscordModal"/>
+			<image src='BeatXP.UI.Images.Logo.png' pref-width='25' pref-height='25' hover-hint='Welcome to BeatXP!'/>
 		</vertical>
 	</horizontal>
 
@@ -12,14 +12,14 @@
 		<vertical>
 			<horizontal>
 				<primary-button text='Beat Track' hover-hint='The Beat Track is a Level Progression System where you can unlock special things!' pad='1' pref-width='30' pref-height='10' on-click='OpenTrackView'/>
-				<primary-button text='Item Shop' hover-hint='In the Item Shop you can buy special cosmetics with Beat Coins that you can get through the Beat Track!' pad='1' pref-width='30' pref-height='10'/>
+				<primary-button text='Item Shop' hover-hint='In the Item Shop you can buy special cosmetics with Beat Coins that you can get through the Beat Track!' pad='1' pref-width='30' pref-height='10' on-click='OpenShopView'/>
 			</horizontal>
 			<primary-button text='Inventory' hover-hint='In your Inventory you can redownload cosmetics you already unlocked!' pad='1' pref-width='30' pref-height='10'/>
 		</vertical>
 	</horizontal>
 	<horizontal>
 		<vertical pad-top='30'>
-			<clickable-text text='BeatXP by Fynn07 and Riley' face-color='#2c3b63' click-event='OpenAdModal'></clickable-text>
+			<clickable-text text='BeatXP created by Fynn07 &amp; Team' face-color='#2c3b63' click-event='OpenDiscordModal'></clickable-text>
 		</vertical>
 	</horizontal>
 
