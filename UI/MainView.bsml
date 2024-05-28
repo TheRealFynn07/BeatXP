@@ -14,7 +14,7 @@
 				<primary-button text='Beat Track' hover-hint='The Beat Track is a Level Progression System where you can unlock special things!' pad='1' pref-width='30' pref-height='10' on-click='OpenTrackView'/>
 				<primary-button text='Item Shop' hover-hint='In the Item Shop you can buy special cosmetics with Beat Coins that you can get through the Beat Track!' pad='1' pref-width='30' pref-height='10' on-click='OpenShopView'/>
 			</horizontal>
-			<primary-button text='Inventory' hover-hint='In your Inventory you can redownload cosmetics you already unlocked!' pad='1' pref-width='30' pref-height='10'/>
+			<primary-button text='Inventory' hover-hint='In your Inventory you can redownload cosmetics you already unlocked! if you lost them.' pad='1' pref-width='30' pref-height='10'/>
 		</vertical>
 	</horizontal>
 	<horizontal>
