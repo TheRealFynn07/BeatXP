@@ -3,7 +3,7 @@
 	>
 	<horizontal>
 		<vertical>
-			<text/>
+			<text text='Item Shop will be added in later versions!' face-color='#00ff00' font-size='7'/>
 		</vertical>
 	</horizontal>
 </bg>
