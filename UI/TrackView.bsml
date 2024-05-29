@@ -1,17 +1,28 @@
 ﻿<bg xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
 	xsi:schemaLocation='https://monkeymanboy.github.io/BSML-Docs/ https://raw.githubusercontent.com/monkeymanboy/BSML-Docs/gh-pages/BSMLSchema.xsd'
 	>
-	<horizontal pref-width='140' pref-height='50'>
+	<horizontal pref-width='140' pref-height='75'>
 		<vertical>
-			<text text='Beat Track' align='Center' font-size='7'/>
-			<horizontal pref-width='140' pref-height='30'>
-				<page-button dir='Left' preserve-aspect='true' pref-width='12.5'/>
+			<text text='Welcome to the Beat Track!' align='Center' font-size='7'/>
+			<text text='The Beat Track is a Level System' align='Center' font-size='4'/>
+			<text text='where you can unlock Special Items and' align='Center' font-size='4'/>
+			<text text='Beat Coins for the Item Shop (coming soon)!' align='Center' font-size='4'/>
+			<horizontal pref-width='150' pref-height='35'>
+				<page-button dir='Left' preserve-aspect='true' pref-width='6.9'/>
+				<stack>
+					<vertical bg='round-rect-panel' pref-width='35' pref-height='25'>
+						<loading preserve-aspect='true' pref-width='10'/>
+						<text text='Item' font-size='6' align='Center'/>
+						<text text='Instant Rewards' align='Center'></text>
+						<button text='Claim' face-color='#00ff00'></button>
+					</vertical>
+				</stack>
 				<stack>
 					<vertical bg='round-rect-panel' pref-width='20' pref-height='25'>
 						<loading preserve-aspect='true' pref-width='10'/>
 						<text text='Item' font-size='6' align='Center'/>
 						<text text='Level 1' align='Center'></text>
-						<button text='Claim' face-color='#00ff00'></button>
+						<button text='Claim' face-color='#00ff00' interactable='false'></button>
 					</vertical>
 				</stack>
 				<stack>
@@ -19,7 +30,7 @@
 						<loading preserve-aspect='true' pref-width='10'/>
 						<text text='Item' font-size='6' align='Center'/>
 						<text text='Level 2' align='Center'></text>
-						<button text='Claim' face-color='#00ff00'></button>
+						<button text='Claim' face-color='#00ff00' interactable='false'></button>
 					</vertical>
 				</stack>
 				<stack>
@@ -27,7 +38,7 @@
 						<loading preserve-aspect='true' pref-width='10'/>
 						<text text='Item' font-size='6' align='Center'/>
 						<text text='Level 3' align='Center'></text>
-						<button text='Claim' face-color='#00ff00'></button>
+						<button text='Claim' face-color='#00ff00' interactable='false'></button>
 					</vertical>
 				</stack>
 				<stack>
@@ -35,22 +46,14 @@
 						<loading preserve-aspect='true' pref-width='10'/>
 						<text text='Item' font-size='6' align='Center'/>
 						<text text='Level 4' align='Center'></text>
-						<button text='Claim' face-color='#00ff00'></button>
+						<button text='Claim' face-color='#00ff00' interactable='false'></button>
 					</vertical>
 				</stack>
-				<stack>
-					<vertical bg='round-rect-panel' pref-width='20' pref-height='25'>
-						<loading preserve-aspect='true' pref-width='10'/>
-						<text text='Item' font-size='6' align='Center'/>
-						<text text='Level 5' align='Center'></text>
-						<button text='Claim' face-color='#00ff00'></button>
-					</vertical>
-				</stack>
-				<page-button dir='Right' preserve-aspect='true' pref-width='12.5'/>
+				<page-button dir='Right' preserve-aspect='true' pref-width='6.9'/>
 			</horizontal>
 			<horizontal>
 				<primary-button text='Activate Booster' click-event='OpenBoosterModal'></primary-button>
-				<text text='Booster runs out in 3:46:12'/>
+				<text text='Booster runs out in hours:minutes:seconds'/>
 			</horizontal>
 		</vertical>
 	</horizontal>
@@ -61,7 +64,7 @@
 				<primary-button text='Activate Booster' font-size='6' face-color='yellow' align='Center' all-uppercase='true' on-click='Activate2XBooster'/>
 			</horizontal>
 				<vertical ignore-layout='true' anchor-max-x='1' anchor-min-y='1' anchor-pos-y='-13'>
-					<text text='gives you Double XP for 6 Hours'/>
+					<text text='gives you Double XP for 2 Hours'/>
 				</vertical>
 			<horizontal>
 				<button text='Close' click-event='CloseBoosterModal' face-color='#ff0000' pad-top='17'/>
