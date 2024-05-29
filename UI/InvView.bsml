@@ -1,0 +1,154 @@
+﻿<bg xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+	xsi:schemaLocation='https://monkeymanboy.github.io/BSML-Docs/ https://raw.githubusercontent.com/monkeymanboy/BSML-Docs/gh-pages/BSMLSchema.xsd'
+	>
+	<horizontal pref-width='80' pref-height='80'>
+		<vertical>
+			<vertical pad-bottom='60'>
+			<horizontal pref-width='100' pref-height='15'>
+				<stack>
+					<vertical bg='round-rect-panel' pref-width='15'>
+						<loading preserve-aspect='true' pref-width='10'/>
+					</vertical>
+				</stack>
+				<stack>
+					<vertical bg='round-rect-panel' pref-width='15'>
+						<loading preserve-aspect='true' pref-width='10'/>
+					</vertical>
+				</stack>
+				<stack>
+					<vertical bg='round-rect-panel' pref-width='15'>
+						<loading preserve-aspect='true' pref-width='10'/>
+					</vertical>
+				</stack>
+				<stack>
+					<vertical bg='round-rect-panel' pref-width='15'>
+						<loading preserve-aspect='true' pref-width='10'/>
+					</vertical>
+				</stack>
+				<stack>
+					<vertical bg='round-rect-panel' pref-width='15'>
+						<loading preserve-aspect='true' pref-width='10'/>
+					</vertical>
+				</stack>
+				<stack>
+					<vertical bg='round-rect-panel' pref-width='15'>
+						<loading preserve-aspect='true' pref-width='10'/>
+					</vertical>
+				</stack>
+			</horizontal>
+			</vertical>
+		</vertical>
+	</horizontal>
+	<vertical pad-bottom='26'>
+		<horizontal pref-width='100' pref-height='15'>
+			<stack>
+				<vertical bg='round-rect-panel' pref-width='15'>
+					<loading preserve-aspect='true' pref-width='10'/>
+				</vertical>
+			</stack>
+			<stack>
+				<vertical bg='round-rect-panel' pref-width='15'>
+					<loading preserve-aspect='true' pref-width='10'/>
+				</vertical>
+			</stack>
+			<stack>
+				<vertical bg='round-rect-panel' pref-width='15'>
+					<loading preserve-aspect='true' pref-width='10'/>
+				</vertical>
+			</stack>
+			<stack>
+				<vertical bg='round-rect-panel' pref-width='15'>
+					<loading preserve-aspect='true' pref-width='10'/>
+				</vertical>
+			</stack>
+			<stack>
+				<vertical bg='round-rect-panel' pref-width='15'>
+					<loading preserve-aspect='true' pref-width='10'/>
+				</vertical>
+			</stack>
+			<stack>
+				<vertical bg='round-rect-panel' pref-width='15'>
+					<loading preserve-aspect='true' pref-width='10'/>
+				</vertical>
+			</stack>
+		</horizontal>
+	</vertical>
+	<vertical pad-top='8'>
+		<horizontal pref-width='100' pref-height='15'>
+			<stack>
+				<vertical bg='round-rect-panel' pref-width='15'>
+					<loading preserve-aspect='true' pref-width='10'/>
+				</vertical>
+			</stack>
+			<stack>
+				<vertical bg='round-rect-panel' pref-width='15'>
+					<loading preserve-aspect='true' pref-width='10'/>
+				</vertical>
+			</stack>
+			<stack>
+				<vertical bg='round-rect-panel' pref-width='15'>
+					<loading preserve-aspect='true' pref-width='10'/>
+				</vertical>
+			</stack>
+			<stack>
+				<vertical bg='round-rect-panel' pref-width='15'>
+					<loading preserve-aspect='true' pref-width='10'/>
+				</vertical>
+			</stack>
+			<stack>
+				<vertical bg='round-rect-panel' pref-width='15'>
+					<loading preserve-aspect='true' pref-width='10'/>
+				</vertical>
+			</stack>
+			<stack>
+				<vertical bg='round-rect-panel' pref-width='15'>
+					<loading preserve-aspect='true' pref-width='10'/>
+				</vertical>
+			</stack>
+		</horizontal>
+	</vertical>
+	<vertical pad-top='42'>
+		<horizontal pref-width='100' pref-height='15'>
+			<stack>
+				<vertical bg='round-rect-panel' pref-width='15'>
+					<loading preserve-aspect='true' pref-width='10'/>
+				</vertical>
+			</stack>
+			<stack>
+				<vertical bg='round-rect-panel' pref-width='15'>
+					<loading preserve-aspect='true' pref-width='10'/>
+				</vertical>
+			</stack>
+			<stack>
+				<vertical bg='round-rect-panel' pref-width='15'>
+					<loading preserve-aspect='true' pref-width='10'/>
+				</vertical>
+			</stack>
+			<stack>
+				<vertical bg='round-rect-panel' pref-width='15'>
+					<loading preserve-aspect='true' pref-width='10'/>
+				</vertical>
+			</stack>
+			<stack>
+				<vertical bg='round-rect-panel' pref-width='15'>
+					<loading preserve-aspect='true' pref-width='10'/>
+				</vertical>
+			</stack>
+			<stack>
+				<vertical bg='round-rect-panel' pref-width='15'>
+					<loading preserve-aspect='true' pref-width='10'/>
+				</vertical>
+			</stack>
+		</horizontal>
+	</vertical>
+	<vertical pad-top='70'>
+		<horizontal>
+		<horizontal pad-right='2'>
+			<page-button dir='Down' preserve-aspect='true' pref-width='7.5' />
+		</horizontal>
+		<horizontal pad-left='2'>
+			<page-button dir='Up' preserve-aspect='true' pref-width='7.5' />
+		</horizontal>
+		</horizontal>
+	</vertical>
+</bg>
