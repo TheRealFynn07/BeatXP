@@ -19,7 +19,7 @@
 	</horizontal>
 	<horizontal>
 		<vertical pad-top='30'>
-			<clickable-text text='BeatXP created by Fynn07 &amp; Team' face-color='#2c3b63' click-event='OpenDiscordModal'></clickable-text>
+			<clickable-text text='BeatXP created by sweapy &amp; Team' face-color='#2c3b63' click-event='OpenDiscordModal'></clickable-text>
 		</vertical>
 	</horizontal>
 
